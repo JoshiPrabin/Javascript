@@ -1,0 +1,1 @@
+// Misspelled variables and function names result in reference error as browser is trying to find something that doesn't exist
