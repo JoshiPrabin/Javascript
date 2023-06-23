@@ -1,7 +1,7 @@
 function binaryAgent(str) {
     var binary = str.split(" ");
     var sentence = [];
-    for (var i = 0; i < binary.length; i++) {
+    for (let i = 0; i < binary.length; i++) {
       sentence.push(String.fromCharCode(parseInt(binary[i], 2)));
     }
     return sentence.join("");
